@@ -1,1 +1,16 @@
-/*# sourceMappingURL=BoardCaption.css.map */
+.board-caption {
+  white-space: nowrap;
+}
+.board-caption .row-caption {
+  white-space: nowrap;
+  position: relative;
+  height: 88px;
+  overflow: hidden;
+  transition: 200ms;
+  -webkit-mask-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(0, 0, 0) 5%, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0));
+          mask-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(0, 0, 0) 5%, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0));
+}
+.board-caption .row-caption:hover .text-caption {
+  transition: 200ms;
+  animation-play-state: paused;
+}/*# sourceMappingURL=BoardCaption.css.map */

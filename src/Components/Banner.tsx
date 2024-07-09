@@ -11,7 +11,7 @@ export default function Banner() {
             You will never know what kind of life a person with super good memory will have. 
             Come in here, we always welcome you.
         </div>
-        <div className="training-memory">Training Memory</div>
+        <button className="training-memory">Training Memory</button>
     </div>
   )
 }

@@ -1,27 +1,37 @@
-@mixin moving-div-animation($duration) 
-  @keyframes move 
-    from 
-      transform: translateX(-500px)
-    
-    to 
-      transform: translateX(calc(100vw + 400px))
-    
-  
 
-  animation: move $duration linear infinite
-
-
-$animation-duration: 15s
-
+$timeDuration: 20s
+$captionQuantity: 5
 .text-caption 
-  @include moving-div-animation($animation-duration)
-
-  position: relative
-  display: inline-block
+  position: absolute
   background-color: #96B6C5
   color: #F1F0E8
-  left: 0
   width: 300px
-  padding: 22px
+  padding: 24px
   margin: 10px
-  border-radius: 10px
+  border-radius: 5px
+  box-shadow: 0 0 20px 5px #f1f0e867
+  transition: 300ms
+  &:hover
+    transition: 300ms
+    transform: scale(1.1)
+  
+  a 
+    text-decoration: none
+    color: #F1F0E8
+    font-weight: 600
+
+.left-to-right 
+  @keyframes move1 
+      to 
+        left: -300px
+        
+  left: max(calc(300px * $captionQuantity), 100%)
+  animation: move1 $timeDuration linear infinite
+
+.right-to-left
+  @keyframes move
+      to 
+        left: 100%
+  
+  left: min(-300px, calc(100% - 300px * ($captionQuantity + 1)))
+  animation: move $timeDuration linear infinite

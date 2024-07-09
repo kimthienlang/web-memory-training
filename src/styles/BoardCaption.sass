@@ -1,3 +1,12 @@
 .board-caption 
-    .row 
-        
+    white-space: nowrap
+    .row-caption
+        white-space: nowrap
+        position: relative
+        height: 88px
+        overflow: hidden
+        transition: 200ms
+        mask-image: linear-gradient(to right,rgba(255, 255, 255, 0),rgba(0, 0, 0, 1) 5%,rgba(0, 0, 0, 1) 95%,rgba(0, 0, 0, 0))
+        &:hover .text-caption
+            transition: 200ms
+            animation-play-state: paused
