@@ -1,0 +1,20 @@
+.text-caption {
+  animation: move 15s linear infinite;
+  position: relative;
+  display: inline-block;
+  background-color: #96B6C5;
+  color: #F1F0E8;
+  left: 0;
+  width: 300px;
+  padding: 22px;
+  margin: 10px;
+  border-radius: 10px;
+}
+@keyframes move {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(calc(100vw + 400px));
+  }
+}/*# sourceMappingURL=TextCaption.css.map */

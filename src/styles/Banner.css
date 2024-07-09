@@ -1,0 +1,44 @@
+.banner {
+  padding: 10px 100px;
+  margin: 40px 0px 80px 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner p {
+  font-size: 0.94625rem;
+  letter-spacing: 0.0016em;
+  font-weight: 600;
+  margin-bottom: 0.79625rem;
+}
+.banner h1 {
+  width: 100%;
+  font-size: 3.37125rem;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.banner .description {
+  width: 60%;
+  margin-top: 1.4rem;
+  letter-spacing: -0.0026em;
+  font-weight: 600;
+}
+.banner .training-memory {
+  background: #96B6C5;
+  border-radius: 25px;
+  box-shadow: 0 0 16px 2px #F1F0E8;
+  cursor: pointer;
+  color: #F1F0E8;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  padding: 10px 25px;
+  transition: 200ms;
+}
+.banner .training-memory:hover {
+  transition: 200ms;
+  box-shadow: 0 0 64px 8px #F1F0E8;
+  padding: 10px 50px;
+}/*# sourceMappingURL=Banner.css.map */
