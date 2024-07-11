@@ -1,13 +1,9 @@
-import Banner from "./Components/Banner";
-import BoardCaption from "./Components/BoardCaption";
-import NavigationBar from "./Components/NavigationBar";
+import UserPage from "./Components/User/UserPage"
 
 export default function App() {
   return (
     <>
-      <NavigationBar />
-      <Banner />
-      <BoardCaption />
+      <UserPage />
     </>
   )
 }
