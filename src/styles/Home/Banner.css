@@ -1,0 +1,48 @@
+.banner {
+  position: relative;
+  padding: 10px 100px;
+  margin: 80px 0px 80px 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner p {
+  font-size: 0.94625rem;
+  letter-spacing: 0.0016em;
+  font-weight: 600;
+  margin-bottom: 0.79625rem;
+}
+.banner h1 {
+  min-width: 700px;
+  font-size: 3.37125rem;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.banner .description {
+  max-width: 500px;
+  margin-top: 1.4rem;
+  letter-spacing: -0.0026em;
+  font-weight: 600;
+}
+.banner .training-memory {
+  background: #4c7cff;
+  border-radius: 25px;
+  box-shadow: 0 0 16px 2px #fffef4;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  transition: 500ms;
+  cursor: pointer;
+}
+.banner .training-memory:hover {
+  transition: 200ms ease-in-out;
+  color: #F1F0E8;
+  box-shadow: 0 0 64px 8px #F1F0E8;
+  padding: 10px 50px;
+}/*# sourceMappingURL=Banner.css.map */

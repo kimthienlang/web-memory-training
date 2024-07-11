@@ -1,0 +1,87 @@
+.row-famous-quote
+    position: relative 
+    width: 100%
+    margin: 20px 0
+    padding: 20px 0px
+    display: flex
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    
+    >*
+        max-width: 500px
+        margin: 20px 10px
+        border-radius: 5px
+        box-shadow: 0px 0px 10px 2px #5e5e5e80
+        &:hover
+            transform: translateY(-10px)
+    ul 
+        list-style-type: none
+        display: flex
+        flex-wrap: wrap
+        margin: 5px 5px 10px 0px
+        li
+            background: red
+            margin: 0px 6px 5px 0px
+            padding: 2px 12px
+            border-radius: 20px
+            box-shadow: 5px 5px 16px 2px #00000066
+            &:hover
+                transform: translateY(-3px)
+            
+            a   
+                color: white
+                line-height: 190%
+                letter-spacing: 0.5px
+                font-size: 12px
+                font-weight: 1000
+                text-decoration: none
+
+
+    .column-image
+        flex: 1
+        background: white
+        padding: 10px
+        margin-right: 60px
+        img
+            position: relative
+            width: 100%
+            max-height: 300px
+            border-radius: 5px
+            margin-top: 10px
+            object-fit: scale-down
+    
+    .column-quote
+        flex: 1
+        background: #fff
+        height: 100%
+        padding: 10px
+        
+        .description
+            position: relative
+            padding: 0px 8px
+            &::before
+                content: ''
+                position: absolute
+                left: 0px
+                width: 2px
+                height: 100%
+                background: #000000
+
+
+.facebook 
+    background: #0866ff !important
+    color: #fff
+
+.instagram 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important
+    color: #fff
+
+.tiktok 
+    background: #000 !important
+
+.linkedin
+    background: #0a66c2 !important
+
+
+
