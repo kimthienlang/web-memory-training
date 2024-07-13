@@ -1,46 +1,19 @@
-.user-page
+.user
     position: relative
-    height: 100%
-    background: #ffffff
-    background-size: cover 
-    padding: 10px 40px
+    left: 50%
+    transform: translateX(-50%)
+    background: #1a1a1a
     display: flex
-    flex-direction: row
+    justify-content: center
+    flex-wrap: nowrap
+    gap: 16px
+    padding: 24px
     
     .up-column-left
-        flex: 7
+        width: 700px
+        
     .up-column-right
-        flex: 3
-
-.user-profile
-    height: 95%
-    overflow: hidden
-    overflow-y: auto
-    .info
-        .info-header
-            border: 1px solid black
-            width: 100%
-            display: flex
-            padding: 10px
-            .user-img
-                width: 80px
-                height: 80px
-                background: url('src/assets/user.png')
-                background-position: center
-                background-size: cover 
-                border-radius: .5rem
-                margin-right: 10px
-            .user-name
-                flex: 1
-                .user-name-1
-                    font-weight: 1000
-                    color: #fff
-                .user-name-2
-                    color: #717171
-                    font-size: 14px
-
-    .community-stats
-    .skills
+        width: 300px
 
 .achievement
     display: flex
@@ -53,10 +26,3 @@
 
 .history-solving
     height: 800px
-
-.card 
-    min-height: 184px
-    border-radius: 10px
-    margin: 10px 5px 0px 5px
-    padding: 5px
-    background: #949494

@@ -9,6 +9,7 @@ import './styles/Home/Scrollbar.css'
 import './styles/Home/TextCaption.css'
 import './styles/Home/RowIntro.css'
 import './styles/User/UserPage.css'
+import './styles/User/UPColumnRight/UserProfile.css'
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
