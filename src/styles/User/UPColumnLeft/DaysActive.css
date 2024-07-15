@@ -1,0 +1,29 @@
+.day-active {
+  width: 100%;
+  position: relative;
+  color: #aeaeae;
+  background: #282828;
+  padding: 8px 12px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.day-active #da-row1 {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.day-active #da-row1 .da-row1-right {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+.day-active #da-row1 strong {
+  color: white;
+}
+.day-active #da-row2 {
+  display: flex;
+  overflow: auto;
+}/*# sourceMappingURL=DaysActive.css.map */

@@ -1,7 +1,7 @@
-.user-profile
-    position: relative
-    overflow: hidden
-    overflow-y: auto
+.up-column-right
+    min-width: 300px
+    border: 3px dashed #fff
+    padding: 24px 16px
     .info
         .info-header
             width: 100%
@@ -27,34 +27,33 @@
                     color: #dadada
                     font-size: 14px
     
-    #edit-profile
-        width: 100%
-        font-size: 14px
-        font-weight: 500
-        color: #2cbb52
-        background: #283a2e
-        outline: none
-        border: none
-        border-radius: .5rem
-        padding: 7px 0
-        cursor: pointer
-        &:hover 
-            color: #2cff65
-    ul li 
-        list-style: none
-    .list-link
-        .list-link-item
+        #edit-profile
+            width: 100%
             font-size: 14px
-            display:  flex
-            align-items: center
-            i 
-                margin-right: 8px
-            transition: 0ms
+            font-weight: 500
+            color: #2cbb52
+            background: #283a2e
+            outline: none
+            border: none
+            border-radius: .5rem
+            padding: 7px 0
+            cursor: pointer
             &:hover 
+                color: #2cff65
+        .list-link
+            .list-link-item
+                list-style: none
+                font-size: 14px
+                display:  flex
+                align-items: center
+                i 
+                    margin-right: 8px
                 transition: 0ms
-                color: #fff
-    .community-stats
-    .skills
+                &:hover 
+                    transition: 0ms
+                    color: #fff
+        .community-stats
+        .skills
 
 
 .up-element 

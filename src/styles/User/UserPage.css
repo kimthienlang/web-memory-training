@@ -1,32 +1,9 @@
 .user {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #1a1a1a;
+  background: #ff9999;
+  padding: 16px;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   gap: 16px;
-  padding: 24px;
-}
-.user .up-column-left {
-  width: 700px;
-}
-.user .up-column-right {
-  width: 300px;
-}
-
-.achievement {
-  display: flex;
-  justify-content: center;
-}
-.achievement .solving-diff {
-  flex: 1;
-}
-.achievement .badges {
-  flex: 1;
-}
-
-.history-solving {
-  height: 800px;
 }/*# sourceMappingURL=UserPage.css.map */

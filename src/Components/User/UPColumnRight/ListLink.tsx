@@ -23,7 +23,7 @@ export default function ListLink({user} : any) { // need data
         )
     }
   return (
-    <ul className="list-link up-element">
+    <ul className="list-link">
         {listLi}
     </ul>
   )

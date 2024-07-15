@@ -1,0 +1,20 @@
+.tb-month {
+  font-family: Arial, sans-serif;
+  table-layout: fixed;
+  flex-shrink: 0;
+  margin: 8px;
+}
+.tb-month .tb-month-name {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+.tb-month .square {
+  background: #797979;
+  margin: 2px;
+  width: 8.6px;
+  height: 8.6px;
+  border-radius: 2px;
+}
+.tb-month .sq-active {
+  background: #09a206 !important;
+}/*# sourceMappingURL=BoardMonth.css.map */
