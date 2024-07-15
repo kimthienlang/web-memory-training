@@ -1,9 +1,10 @@
-import UserPage from "./Components/User/UserPage"
+import Home from "./Pages/Home";
+import User from "./Pages/User";
 
 export default function App() {
   return (
     <>
-      <UserPage />
+      <User />
     </>
   )
 }

@@ -1,7 +1,7 @@
-import Banner from "./Banner";
-import BoardCaption from "./BoardCaption";
-import NavigationBar from "./NavigationBar";
-import RowIntro from "./RowIntro";
+import Banner from "../Components/Home/Banner"
+import BoardCaption from "../Components/Home/BoardCaption"
+import Introduce from "../Components/Home/Introduce"
+import NavigationBar from "../Components/Home/NavigationBar"
 
 type Profile = {
   src: string
@@ -31,13 +31,11 @@ profiles.push({
 
 export default function Home() {
     return (
-        <>
-            <NavigationBar />
-            <Banner />
-            <BoardCaption />
-            <RowIntro profile={profiles[0]}/>
-            <RowIntro profile={profiles[1]}/>
-            <RowIntro profile={profiles[2]}/>
-        </>
+        <div className="home page">
+          <NavigationBar />
+          <Banner />
+          <BoardCaption />
+          <Introduce profiles={profiles} />
+        </div>
     )
 }
